@@ -27,7 +27,7 @@ public class App {
     Baker bob = new Baker("Bob");
     Table t = new Table(5, 100);
     Cake bDay = bob.bakes(5, "Suzzie");
-    String legChar = t.setLegChar("|");
+    String legChar = t.setLegChar("k");
     int cakeOffset = bDay.centeringMath(t);
     int width = 20;
     bDay.draw(t, width, width / 2, cakeOffset, legChar);
