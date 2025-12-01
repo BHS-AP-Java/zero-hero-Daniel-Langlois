@@ -17,7 +17,7 @@ public class Customer {
       System.out.println("The customer paid $" + price);
       return price;
     } else {
-      System.out.println("Customer is to broke to buy cake ;-;");
+      System.out.println("Customer is too broke to buy cake ;-;");
       return money;
     }
   }

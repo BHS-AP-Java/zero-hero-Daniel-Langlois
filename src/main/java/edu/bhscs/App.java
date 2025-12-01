@@ -26,11 +26,11 @@ public class App {
 
   public static void date10_27() {
     Baker bob = new Baker("Bob");
-    Table t = new Table(5, 100);
+    Table t = new Table(3, 50);
     Cake bDay = bob.bakes(5, "Suzzie");
-    String legChar = t.setLegChar("k");
+    String legChar = t.setLegChar("|");
     int cakeOffset = bDay.centeringMath(t);
-    int width = 20;
+    int width = 15;
     bDay.draw(t, width, width / 2, cakeOffset, legChar);
   }
 }
