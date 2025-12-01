@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "edu.bhscs.App",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "Main1",
+      "request": "launch",
+      "mainClass": "edu.bhscs.Main1",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "PracticingJFrame",
+      "request": "launch",
+      "mainClass": "edu.bhscs.PracticingJFrame",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "Person",
+      "request": "launch",
+      "mainClass": "edu.bhscs.Person",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "Store",
+      "request": "launch",
+      "mainClass": "edu.bhscs.Store",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "tictactoe",
+      "request": "launch",
+      "mainClass": "edu.bhscs.tictactoe",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
+      "name": "Main2",
+      "request": "launch",
+      "mainClass": "edu.bhscs.Main2",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
       "name": "Run Main (console)",
       "request": "launch",
       "mainClass": "edu.bhscs.Main",
@@ -23,7 +72,10 @@
       "mainClass": "edu.bhscs.Main",
       "console": "integratedTerminal",
       "preLaunchTask": "xpra-up",
-      "env": { "DISPLAY": ":99", "LIBGL_ALWAYS_SOFTWARE": "1" }
+      "env": {
+        "DISPLAY": ":99",
+        "LIBGL_ALWAYS_SOFTWARE": "1"
+      }
     }
   ]
 }
